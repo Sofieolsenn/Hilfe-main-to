@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+/*  Scrollbar style */
+/*  Width   */
+::-webkit-scrollbar {width: 0.8rem;}
+
+/*  Bar Background   */
+::-webkit-scrollbar-track {background: #8B8B8B;}
+   
+/*  Bar Handle  */
+::-webkit-scrollbar-thumb {background: #fff;}
+  
+/*  Bar Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {background: var(--hover);} */
+
+
+body{
+    font-family: "Outfit", serif;
+    background-color: #8B8B8B;
+}
+
+.light{
+    font-weight: 200;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 2%;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none; /* Remove underline if any */
+}
+
+.logo {
+    margin-right: 10px; /* Adjust spacing between the logo and the text */
+    width: 40px;
+}
+
+.logo-label {
+    text-decoration: none;
+    color: #fff;
+    font-size: 48px;
+    font-weight: light;
+}
+
+.navbar-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 16px;
+    transition: color 0.3s ease;
+    font-family: 'Outfit', 'serif';
+    font-weight: 100;
+    flex: 1;
+    font-weight: 200;
+}
+
+.navbar-link.active {
+    font-weight: bold;
+    color: #fff; /* Change this to match your design */
+    text-decoration: underline;
+}
+
+.navbar-links {
+    color: #fff;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    flex: 1;
+}
+
+.navbar-cta {
+    display: flex;
+    justify-content: end;
+    flex: 1;
+}
+
+.navbar-cta-button {
+    font-size: 30px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #606060;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 40px;
+    text-align: right;
+    transition: 0.3s;
+    font-weight: 600;
+    box-shadow: 1px 2px 20px 0px rgba(0, 0, 0, 0.22);
+}
+
+.navbar-cta-button:hover {
+    color: #fff;
+    background-color: #606060;
+}
