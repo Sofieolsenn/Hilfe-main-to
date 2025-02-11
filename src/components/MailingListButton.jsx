@@ -3,13 +3,13 @@ import '../css/global.css';
 
 const ContainerStyle = {
     margin: "50px 0",
-    fontSize: "20px",
 }
+
 
 const MailingListButton = () => {
     return (
         <div style={ContainerStyle}>
-            <a className="navbar-cta-button" href="#">Tilmeld dig ventelisten</a>
+            <a className="navbar-cta-button" href="#">Tilmeld dig ventelisten nu</a>
         </div>
     );
 };
