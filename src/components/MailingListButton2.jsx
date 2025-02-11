@@ -3,13 +3,13 @@ import React from 'react'
 export default function MailingListButton2() {
   const buttonStyle = {
     display: "inline-block",
-    padding: "30px 100px",
+    padding: "30px 70px",
     border: "1px solid white", // Hvid kant
     color: "white", // Hvid tekst
     textAlign: "center",
     textDecoration: "none", // Fjern understregning
     borderRadius: "100px", // Rundede hjørner
-    fontSize: "20px",
+    fontSize: "25px",
     cursor: "pointer",
     transition: "background-color 0.3s ease", // Smooth transition for background color
   };
