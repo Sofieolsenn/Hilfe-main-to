@@ -6,6 +6,7 @@ import Footer from "../components/Footer.jsx";
 import UserGroups from "../components/UserGroups.jsx";
 import MailingListButton from "../components/MailingListButton.jsx";
 import PhoneSlideShow from "../components/PhoneSlideShow.jsx";
+import DownloadHilfe from "../components/DownloadHilfe.jsx";
 
 export const Route = createLazyFileRoute("/")({
   component: Index,
@@ -35,6 +36,13 @@ const FeaturesStyle = {
   padding: "50px 50px 50px 150px",
 }
 
+const DownloadHilfeStyle = {
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+  padding: "10px",
+}
+
 function Index() {
   const context = useRouteContext({ from: "/" });
   console.log(context);
@@ -52,6 +60,9 @@ function Index() {
       </div>
       <div style={FeaturesStyle}>
         <PhoneSlideShow/>
+      </div>
+      <div style={DownloadHilfeStyle}>
+        <DownloadHilfe />
       </div>
       <Footer />
     </>
